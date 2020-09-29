@@ -1,0 +1,155 @@
+.hole-container{
+  border: 0.05rem #c0c0c0 solid;
+  padding: 0 5%;
+  margin: 0 5% 5% 5%;
+  width: 90%;
+  border-radius: .25rem;
+}
+
+.cart {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.cart-header {
+  padding: 1rem 0;
+  margin: 0 0rem 1rem 0rem;
+  border-bottom: 0.05rem #c0c0c0 solid;
+}
+
+.cart-items{
+  padding:0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.cart-items img {
+  width: 7rem;
+}
+
+.cart-items li {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.05rem #c0c0c0 solid;
+}
+
+.cart-items li div {
+  padding: 0.25rem;
+}
+
+.cart-items li div:last-child{
+  flex:2;
+}
+
+.right {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.button_primary_btn{
+  background-color: rgb(250, 171, 0);
+  width: 100%;
+  color: white;
+  border: 1px solid rgb(0, 0, 0);;
+  padding: .15rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+.cart-total {
+  border-bottom: 0.05rem #c0c0c0 solid;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 2%;
+  
+}
+
+.total >div, .total>button {
+  flex: 1;
+  font-weight: bold;
+}
+
+.button_primary_btn_total{
+  background-color: rgb(250, 171, 0);
+  width: 50%;
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0.5%;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+.form-container {
+  width: 220px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+}
+
+.form-container {
+  margin-left: 0;
+}
+
+.form-container input {
+  width: 100%;
+}
+
+.button_primary_btn_checkout{
+  background-color: rgb(250, 171, 0);
+  width: 50%;
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0.5%;
+  border-radius: .25rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input {
+  outline: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .form-container input {
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .total {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 2%;
+  }
+
+  .button_primary_btn_total{
+    width: 100%;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    padding: .5%;
+    font-size: 1.5rem;
+  }
+
+  .form-container input {
+    width: 100%;
+  }
+
+  .form-container {
+    margin:0 !important;
+    padding-right: 0;
+  }
+}

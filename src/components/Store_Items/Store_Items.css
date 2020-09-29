@@ -1,0 +1,118 @@
+.containerBody {
+  background-color: rgba(217, 241, 250, 0.2);
+}
+
+.imagini {
+  width: 100%;
+}
+
+.carder_body {
+  margin: 2%;
+}
+
+.carder_body h1, p {
+  color: black;
+}
+
+.containerBody h1 {
+  padding: 5% 0 0 3%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2% 0;
+}
+
+.cardBtn{
+  background-color: rgb(40,44,52);
+  border-color: black;
+  width: 100%;
+}
+
+.cardBtn:hover{
+  background-color: rgb(16, 21, 29);
+  border-color: black;
+}
+
+.cardItemStore {
+  width: 21rem;
+}
+
+@media screen and (max-width: 2100px) {
+
+  .containerBody h1 {
+    padding: 7% 0 0 3%;
+  }
+
+  .cardItemStore{
+    width: 90%;
+    margin: -1% 1%;
+  }
+
+  .containerBody h1 {
+    padding: 3% 0 0 3%;
+  }
+
+}
+
+@media screen and (max-width:1600px) {
+  .containerBody h1 {
+    padding: 4% 0 0 3%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .containerBody h1 {
+    padding: 8% 0 0 3%;
+  }
+
+  .containerCards {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .cardItemStore{
+    width: 95%;
+    margin: 2% 0;
+  }
+
+  .containerBody h1 {
+    padding: 7% 0 0 3%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+  .containerBody h1 {
+    padding: 12.5% 0 0 3%;
+  }
+
+  .containerCards {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+  }
+
+  .cards{
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .cardItemStore{
+    width: 95%;
+    margin: 2% 0;
+  }
+
+}

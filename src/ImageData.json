@@ -1,0 +1,33 @@
+{
+  "thumbnails": [
+    {
+      "_id": "img1",
+      "image": "/images/ThumbnailPhoto/beginingsFirst.jpg",
+      "title": "Beginings",
+      "bodyText": "This is for all the latest trends"
+    },
+    {
+      "_id": "img2",
+      "image": "/images/ThumbnailPhoto/beginingsSecond.jpg",
+      "title": "Beginings",
+      "bodyText": "This is for all the latest trends"
+    }
+  ],
+
+  "thumbnailsII": [
+    {
+      "_id": "img1",
+      "image": "/images/ThumbnailPhoto/presentFirst.jpg",
+      "title": "Beginings",
+      "bodyText": "This is for all the latest trends"
+    },
+    {
+      "_id": "img2",
+      "image": "/images/ThumbnailPhoto/presentSecond.jpg",
+      "title": "Beginings",
+      "bodyText": "This is for all the latest trends"
+    }
+  ]
+
+  
+}

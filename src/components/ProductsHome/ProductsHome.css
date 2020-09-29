@@ -1,0 +1,273 @@
+/* products */
+
+.productsHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+h1 {
+  padding: 2% 0 0 3%;
+}
+
+.productsHome li {
+  flex: 1 1 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.productHome{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.productHome p, .product-priceHome {
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: black;
+}
+
+.productHome a {
+  margin-bottom: -12.5%;
+}
+
+.productHome a:hover {
+  opacity: 0.75;
+  color: rgb(39, 68, 114);
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+.productHome img {
+  max-width: 100%;
+  max-height: 25rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.button_primaryHome{
+  background-color: rgb(40,44,52);
+  border-color: black;
+  width: 100%;
+  color: white;
+  border: 1px solid;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  font-size: 1.1rem;
+}
+
+.button_primaryHome:hover{
+  background-color: rgb(16, 21, 29);
+  border-color: black;
+  transition-duration: 1s;
+}
+
+.product-detailsHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 5vh;
+}
+
+.img-containerHome{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.img-containerHome img {
+  margin: 0 auto;
+  width: 500px;
+
+}
+
+.product-detailsHome img {
+  max-height:100vh;
+  max-width: 46rem;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.img-slideHome img{
+width: 100%;
+margin: 2%;
+justify-items: center;
+align-items: center;
+border-radius: 10px !important;
+}
+
+.product-details-descriptionHome{
+ 
+  width: 35%;
+  margin: 0.5rem;
+}
+
+.prduct-details-descriptionHome p {
+  margin:0
+}
+
+.modal-titleHome {
+  font-size: 25px;
+}
+
+.close-modalHome{
+  background-color: rgb(40,44,52);
+  border: 1px solid rgb(0, 0, 0);
+  color:white;
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index:9999;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button_primary_modalHome{
+  background-color: rgb(250, 171, 0);
+  color: white;
+  border: 1px solid rgb(0, 0, 0);;
+  padding: .15rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+.button_primary_available_sizesHome{
+  background-color: rgb(40,44,52);
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  padding: .15rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1750px ) {
+
+  .img-containerHome img {
+    margin: 0 auto;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1556px ) {
+  .mainShoppingCartHome {
+    flex: 4 30rem;
+  }
+
+  .img-containerHome img {
+    margin: 0 auto;
+    width: 350px;
+  
+  }
+}
+
+@media screen and (max-width: 1336px ) {
+  .mainShoppingCartHome {
+    flex: 4 30rem;
+  }
+
+  .img-containerHome img {
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1100px ) {
+  .sidebarShoppingCartHome {
+    margin-top: 1%;
+  }
+
+  .productHome a {
+    margin-bottom: -7%;
+  }
+
+  .productsHome {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img-containerHome img {
+    margin: 0 auto;
+    width: 255px;
+  }
+
+}
+
+@media screen and (max-width: 1024px ) {
+  .sidebarShoppingCartHome {
+    margin-top: 2.5%;
+  }
+
+  .img-containerHome {
+    flex-direction: column;
+  }
+  
+  .img-containerHome img {
+    margin: 1% auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 815px ) {
+  .sidebarShoppingCartHome {
+    margin-top: 2.5%;
+  }
+
+  .img-containerHome {
+    flex-direction: column;
+  }
+
+  .img-containerHome img {
+    margin: 1% auto;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px ) {
+  .productHome a {
+    margin-bottom: -12.5%;
+  }
+
+  .img-containerHome {
+    flex-direction: column;
+  }
+
+  .img-containerHome img {
+    margin: 1% auto;
+    width: 100%;
+  }
+
+  .product-details-descriptionHome{
+    width: 100%;
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 550px ) {
+  .productHome a {
+    margin-bottom: -12.5%;
+  }
+
+  .img-containerHome {
+    flex-direction: column;
+  }
+
+  .img-containerHome img {
+    margin: 1% auto;
+    width: 100%;
+  }
+}

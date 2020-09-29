@@ -1,0 +1,19 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+  border-bottom: 0.05rem #c0c0c0 solid;
+}
+
+.filter div {
+  flex: 1;
+}
+
+@media screen and (max-width: 454px) {
+
+  .filter {
+    margin: 1rem auto;
+    padding: 1rem auto;
+  }
+}

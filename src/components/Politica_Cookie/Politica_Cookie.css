@@ -1,0 +1,153 @@
+
+.continut {
+	width: 75%;
+	background-color: rgba(238,238,238, 0.25);
+  border-radius: 0 0 10px 10px;
+	margin: 5% 12.5% 0 12.5%;
+	padding: 3% 2% 5% 2%;
+	display: block;
+}
+
+.continut h1 {
+	text-align: center;
+	margin-bottom: 5%;
+	font-size: 50px;
+	letter-spacing: 1%;
+	color: rgb(0, 0, 0, 0.6);
+	font-family: "Times New Roman", Times, serif;
+}
+
+.capitol h3 {
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+	color: rgb(0, 0, 0, 0.6);
+	margin-bottom: 1%;
+}
+
+.capitol p {
+	font-size: 20px;
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	color: rgb(0, 0, 0, 0.6);
+	text-indent: 5%;
+	margin-bottom: 3%;
+}
+
+.capitol ul {
+	font-size: 20px;
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	color: rgb(0, 0, 0, 0.6);
+	margin-top: -2.5%;
+	margin-left: 5%;
+	margin-bottom: 10px;
+}
+
+.capitol ol{
+	font-size: 20px;
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	color: rgb(0, 0, 0, 0.6);
+	margin-top: -2.5%;
+	margin-left: 5%;
+}
+
+.capitol h4 {
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	color: rgb(0, 0, 0, 0.6);
+	margin-bottom: 1%;
+	margin-top: 2%;
+}
+
+.setari a{
+	color: rgb(0, 0, 0, 0.6); 
+	margin: 0;
+	padding: 0;
+	
+}
+
+.setari li {
+	list-style-type: none;
+}
+
+@media screen and (max-width:550px) {
+.continut {
+	width: auto;
+	padding: 3% 4% 7.5% 4%;
+	margin: 0 2.5%;
+}
+
+.continut h1 {
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.capitol {
+	padding: 2.5% 0;
+}
+.capitol h3 {
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.capitol p {
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	text-indent: 2%;
+}
+
+.capitol ul {
+	font-size: 15px;
+}
+
+.capitol ol {
+	font-size: 15px;
+}
+
+.capitol h4 {
+	font-size: 17px;
+}
+
+} 
+
+@media screen and (max-width:450px) {
+.continut {
+	width: auto;
+	padding: 3% 4% 7.5% 4%;
+	margin: 12.5% 2.5% 0 2.5%;
+}
+
+.capitol {
+	padding: 2.5% 0;
+}
+
+.continut h1 {
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+.capitol h3 {
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.capitol p {
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	text-indent: 2%;
+}
+
+.capitol ul {
+	font-size: 15px;
+}
+
+.capitol ol {
+	font-size: 15px;
+}
+
+.capitol h4 {
+	font-size: 17px;
+}
+} 

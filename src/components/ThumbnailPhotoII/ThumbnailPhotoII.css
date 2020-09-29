@@ -1,0 +1,129 @@
+/* products */
+
+.productsThumbnailPhotoII {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+
+.productsThumbnailPhotoII li {
+  flex: 1 1 20rem;
+  margin: .5rem;
+}
+
+.productThumbnailPhotoII a:hover {
+  opacity: 0.75;
+  color: rgb(39, 68, 114);
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+.productThumbnailPhotoII img {
+  max-width: 100%;
+  max-height: 35rem;
+  border-radius: 10px;
+}
+
+.product-detailsThumbnailPhotoII img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.close-modalThumbnailPhotoII{
+  background-color: rgb(40,44,52);
+  border: 1px solid rgb(0, 0, 0);
+  color:white;
+  position: absolute;
+  right: 2rem;
+  top: 2.5rem;
+  z-index:9999;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ModalSizeThumbnailPhotoII {
+  position: absolute;
+  top: 60px;
+  left: 310px;
+  right: 310px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1350px ) {
+
+  .ModalSizeThumbnailPhotoII {
+    left: 280px;
+    right: 280px;
+  }
+
+}
+
+@media screen and (max-width: 1200px ) {
+
+  .ModalSizeThumbnailPhotoII {
+    left: 270px;
+    right: 270px;
+  }
+
+}
+
+@media screen and (max-width: 1050px ) {
+
+  .ModalSizeThumbnailPhotoII {
+    left: 150px;
+    right: 150px;
+  }
+
+}
+
+@media screen and (max-width: 750px ) {
+
+  .product a {
+    margin-bottom: -7%;
+  }
+
+  .productsHome {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ModalSizeThumbnailPhotoII {
+    left: 70px;
+    right: 70px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 500px ) {
+  .product a {
+    margin-bottom: -12.5%;
+  }
+
+  .ModalSizeThumbnailPhotoII {
+    left: 10px;
+    right: 10px;
+  }
+
+  .productsThumbnailPhotoII{
+    flex-wrap: wrap;
+    
+  }
+}

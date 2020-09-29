@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav_body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  opacity: 1;
+  background-color: #282C34;
+  box-shadow: 4px 4px 8px rgba(30, 30, 30, 0.5);
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 50px;
+  position: relative;
+  right: 0px;
+  transition: all 2s ease-out;
+  color: white;
+  margin-top: 2%;
+}
+
+.nav-barBack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 50px;
+  position: relative;
+  right: -600px;
+  transition: all 2s ease-out;
+  margin-top: 1%;
+  color: white;
+}
+
+.nav-bar li {
+  padding: 5px 20px;
+  font-size: 17.5px;
+  list-style: none;
+  cursor: pointer;
+  transition: all 5s ease-out;
+  color: white;
+}
+
+.nav-bar li a {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo img {
+  width: 45px;
+  margin-left: 25%;
+}
+
+.link {
+  color: white;
+  align-items: baseline;
+}
+
+.link * {
+  margin: 0 2.5px;
+}
+
+.activeNav {
+  color:rgba(60, 105, 105, 0.5);
+}
+
+.link:hover { 
+  color: rgb(60, 105, 105);
+  transition-duration: 0.85s;
+  text-decoration: none;
+}
+
+.burger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  z-index: 2;
+  background-color: #282C34;
+  outline: none;
+  border: none;
+  width: 60px;
+  height: 50px;
+  outline: none;
+  border-color: none;
+}
+
+.toggle:hover {
+  background-color: darkslategrey;
+  transition-duration: 0.85s;
+}
+
+.toggle{
+  background-color: #f4f4f4;
+  width: 25px;
+  height: 5px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navSide {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  display: none;
+}
+
+.navSide li {
+  margin: 25px 0;
+}
+
+.backgroundSide{
+  width: 100%;
+  height: 820px;
+  background-color: #282C34;
+  position: relative;
+  top: 385px;
+  right: -60px;
+  bottom: 0;
+  display: none;
+}
+
+.backgroundSideBack{
+  display: none;
+}
+
+.logoInstagram, .logoFacebook, .logoItem {
+  color: white;
+}
+
+.logoInstagram:hover, .logoFacebook:hover {
+  color: darkslategrey;
+  transition-duration: 0.85s;
+}
+
+@media screen and (max-width: 825px) {
+  .nav-bar li{
+    padding: 5px;
+  }
+  
+}
+
+@media screen and (max-width: 650px) {
+  .nav-bar {
+    padding: 30px;
+  }
+  
+}
+
+@media screen and (max-width: 565px) {
+
+  .burger {
+    padding: 15px;
+    transition-duration: 1s;
+    transition-delay: 2s;
+    transition-timing-function: linear;
+    
+  }
+
+  .nav-bar {
+    display: none;
+  }
+  .backgroundSide{
+    width: 60%;
+    height: 820px;
+    background-color: #282C34;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0;
+    display: block;
+    transition: all 1s ease-out;
+  }
+  .backgroundSideBack{
+    width: 0%;
+    height: 820px;
+    background-color: #282C34;
+    position: fixed;
+    top: 0px;
+    right: -250px;
+    display: block;
+    transition: all 1s ease-out;
+  }
+
+  .navSide {
+    margin-top: 75px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    display: block;
+    cursor: pointer;
+    color: white;
+  }
+
+  .navSide li:hover{
+    color: darkslategrey;
+    transition-duration: 0.85s;
+  }
+
+  .navSideSecond{
+    
+    margin-top: 120%;
+    list-style: none;
+    text-align: center;
+    color: white;
+  }
+
+  .navSide li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logoInstagram, .logoFacebook {
+    margin: 0 5%
+  }
+
+}
+
+
+
+
+
+

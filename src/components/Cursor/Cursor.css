@@ -1,0 +1,19 @@
+
+
+.carousel_body{
+  margin-top: 2%;
+  z-index: 0;
+}
+
+.carousel_body p {
+  color: white;
+ 
+}
+
+@media screen and (max-width: 550px) {
+  .carousel_body{
+    margin-top: 9%;
+  }
+  
+}
+
