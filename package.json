@@ -27,7 +27,7 @@
     "gatsby-transformer-json": "^2.4.12",
     "gatsby-transformer-sharp": "^2.5.15",
     "jquery": "^3.5.1",
-    "mongodb": "^3.0.0",
+    "mongodb": "^3.6.2",
     "package-lock.json": "^1.0.0",
     "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
