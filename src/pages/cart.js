@@ -20,9 +20,6 @@ class ShoppingCart extends Component {
     }
   }
 
-  
-  
-
   createOrder = (order) => {
     alert("The order has been sent");
   };
@@ -41,6 +38,7 @@ class ShoppingCart extends Component {
  
   
   render() {
+    typeof window !== 'undefined' && window.localStorage.getItem("cartItems");
     return (
       <Provider store={store}>
         <div className="box_content">
