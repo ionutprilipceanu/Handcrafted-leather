@@ -4,17 +4,24 @@ import { productsReducer } from '../reducers/productReducers';
 
 
 
-const initialState = {};
-if (typeof window !== 'undefined') {
-  const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-}
 
-const store = createStore(combineReducers({
+
+
+if (typeof window !== 'undefined') {
+
+  const initialState = {};
+  const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+  var store = createStore(combineReducers({
   products: productsReducer,
-}),
+  }),
   initialState, 
   composeEnhancer(applyMiddleware(thunk))
 );
+
+} else { // if window does not exist
+
+  
+}
 
 export default store;
 
