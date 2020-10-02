@@ -37,14 +37,11 @@ class ShoppingCart extends Component {
       JSON.stringify(cartItems.filter((x) => x._id !== product._id))
     );
   };
+
+ 
   
   render() {
-    if (typeof window !== 'undefined') {
-      console.log('we are running on the client')
-  } else {
-      console.log('we are running on the server');
-  }
-      return (
+    return (
       <Provider store={store}>
         <div className="box_content">
           <Nav_bar />
