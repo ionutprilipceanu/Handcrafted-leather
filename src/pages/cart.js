@@ -19,6 +19,10 @@ class ShoppingCart extends Component {
        cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : [],
     }
   }
+
+  
+  
+
   createOrder = (order) => {
     alert("The order has been sent");
   };
@@ -35,6 +39,9 @@ class ShoppingCart extends Component {
   };
   
   render() {
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('');
+    }
       return (
       <Provider store={store}>
         <div className="box_content">
