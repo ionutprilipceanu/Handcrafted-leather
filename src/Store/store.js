@@ -3,11 +3,7 @@ import thunk from "redux-thunk";
 import { productsReducer } from '../reducers/productReducers';
 
 
-
-
-
-
-if (typeof window !== 'undefined') {
+// if (typeof window !== 'undefined') {
 
   const initialState = {};
   const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
@@ -18,10 +14,9 @@ if (typeof window !== 'undefined') {
   composeEnhancer(applyMiddleware(thunk))
 );
 
-} else { // if window does not exist
-
-  
-}
+// } else { 
+  // if window does not exist
+// }
 
 export default store;
 
