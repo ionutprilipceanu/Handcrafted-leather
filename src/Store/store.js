@@ -3,18 +3,17 @@ import thunk from "redux-thunk";
 import { productsReducer } from '../reducers/productReducers';
 
 const initialState = {};
-let composeEnhancer = {};
-if(window){
-  composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-}else {
-  composeEnhancer={}
+let store = {};
+if (typeof window !== undefined) {
+  const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+  store = createStore(combineReducers({
+    products: productsReducer,
+  }),
+    initialState, 
+    composeEnhancer(applyMiddleware(thunk))
+  );
 }
 
-const store = createStore(combineReducers({
-  products: productsReducer,
-}),
-  initialState, 
-  composeEnhancer(applyMiddleware(thunk))
-);
+
 
 export default store;
