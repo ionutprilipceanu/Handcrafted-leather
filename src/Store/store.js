@@ -3,9 +3,12 @@ import thunk from "redux-thunk";
 import { productsReducer } from '../reducers/productReducers';
 
 
-if (typeof window !== `undefined`) {}
+
 const initialState = {};
-const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+if (typeof window !== 'undefined') {
+  const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+}
+
 const store = createStore(combineReducers({
   products: productsReducer,
 }),
