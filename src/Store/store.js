@@ -3,7 +3,13 @@ import thunk from "redux-thunk";
 import { productsReducer } from '../reducers/productReducers';
 
 const initialState = {};
-const composeEnhancer = window?.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const composeEnhancer;
+if(window){
+  composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+}else {
+  composeEnhancer={}
+}
+
 const store = createStore(combineReducers({
   products: productsReducer,
 }),
