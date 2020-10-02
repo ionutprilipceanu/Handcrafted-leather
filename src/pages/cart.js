@@ -40,8 +40,10 @@ class ShoppingCart extends Component {
   
   render() {
     if (typeof window !== 'undefined') {
-      localStorage.setItem('');
-    }
+      console.log('we are running on the client')
+  } else {
+      console.log('we are running on the server');
+  }
       return (
       <Provider store={store}>
         <div className="box_content">
