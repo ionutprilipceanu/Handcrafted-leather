@@ -294,4 +294,12 @@ border-radius: 10px !important;
     margin: 1% auto;
     width: 100%;
   }
+
+  .ModalSize {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    right: 30px;
+    bottom: 60px;
+  }
 }
