@@ -23,7 +23,7 @@ import favicon from '..//images/favicon.png'
       products: dataFirstPage.products,
       size:"",
       sort:"",
-      cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : [],
+      cartItems: [],
     }
   }
   
@@ -42,6 +42,13 @@ import favicon from '..//images/favicon.png'
     this.setState({ cartItems });
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
   };
+
+  componentDidMount() {
+    this.setState({
+      products: data.products,
+      cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : []
+    })
+  } 
 
   openModal = (product) =>{
     this.setState({product});

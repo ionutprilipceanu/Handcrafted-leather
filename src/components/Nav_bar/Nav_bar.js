@@ -22,7 +22,7 @@ class Nav_bar extends Component {
       products: data.products,
       size:"",
       sort:"",
-      cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : []
+      cartItems: [],
     }
   }
   
@@ -34,6 +34,11 @@ class Nav_bar extends Component {
     })
   }
 
+  componentDidMount() {
+    this.setState({
+      cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : []
+    })
+  } 
 
   render () {
 

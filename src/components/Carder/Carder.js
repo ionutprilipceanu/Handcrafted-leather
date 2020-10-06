@@ -20,9 +20,15 @@ export class Carder extends Component {
       thumbnailsII: DataImage.thumbnailsII,
       size:"",
       sort:"",
-      cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : [],
+      cartItems:[],
     }
   }
+
+  componentDidMount() {
+    this.setState({
+      cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : []
+    })
+  } 
 
   openModal = (product) =>{
     this.setState({product});

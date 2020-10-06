@@ -18,12 +18,19 @@ class ShoppingCart extends Component {
        products: data.products,
        size:"",
        sort:"",
-       cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : [],
+       cartItems: [],
     }
   }
   createOrder = (order) => {
     alert("The order has been sent");
   };
+
+  componentDidMount() {
+    this.setState({
+      products: data.products,
+      cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : []
+    })
+  } 
 
   removeFromCart = (product) => {
     const cartItems = this.state.cartItems.slice();
