@@ -45,7 +45,6 @@ import favicon from '..//images/favicon.png'
 
   componentDidMount() {
     this.setState({
-      products: data.products,
       cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : []
     })
   } 
