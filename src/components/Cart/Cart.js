@@ -40,7 +40,7 @@ class Cart extends Component {
       <div className="hole-container">
 
         {cartItems.length === 0? 
-        (<div className="cart cart-header"> Cart is emtpy </div>) : 
+        (<div className="cart cart-header-space"> Cart is emtpy </div>) : 
         (<div className="cart cart-header"> You have {cartItems.length} in the cart {" "}</div>)
         }
 
