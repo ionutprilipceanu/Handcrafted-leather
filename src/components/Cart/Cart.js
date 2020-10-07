@@ -81,7 +81,14 @@ class Cart extends Component {
             {this.state.showCheckout && (
               <Fade right cascade>
               <div className="cartForm">
-              <form onSubmit={this.createOrder}>
+              <form onSubmit={this.createOrder}
+                method="post" 
+                netlify-honeypot="bot-field" 
+                data-netlify="true" 
+                name="contact" 
+              >
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
                 <ul className="form-container">
                   <li>
                     <label htmlFor="Email">Email:
