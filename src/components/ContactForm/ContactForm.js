@@ -39,15 +39,6 @@ class ContactForm extends Component {
             placeholder="Enter first name"
             name="name" 
             required onChange={this.handInput}
-            
-
-            method="post" 
-      data-netlify-recaptcha="true" 
-      data-netlify-honeypot="bot-field"
-      
-      
-      action="/success"
-      data-netlify="true"
             />
           </Form.Group>
 
