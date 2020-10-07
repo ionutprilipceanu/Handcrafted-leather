@@ -90,14 +90,13 @@ class Cart extends Component {
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
                 <ul className="form-container">
-                  
                   <li>
                     <label htmlFor="name">Name:
                     <input id="name-input" type="text" name="name" placeholder="Full name" required onChange={this.handInput}></input>
                     </label>
                   </li>
                   <li>
-                    <label htmlFor="Email">Email:
+                    <label htmlFor="email">Email:
                     <input id="email-input" type="email" name="email" placeholder="Email address" required onChange={this.handInput}></input> 
                     </label>
                   </li>
