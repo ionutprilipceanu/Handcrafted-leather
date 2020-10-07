@@ -35,6 +35,7 @@ class ContactForm extends Component {
       action="/success"
       data-netlify="true"
       >
+         <input type="hidden" name="bot-field" />
       <Fade left cascade>
         <div className="titlu"><h1>Contact form</h1></div>
         <Form.Row>
