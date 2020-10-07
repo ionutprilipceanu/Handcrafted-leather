@@ -26,9 +26,14 @@ class ContactForm extends Component {
     <div className="continutForm">
       
       <Form 
-      className="formBody" 
+      className="formBody"
+      method="post" 
+      netlify-honeypot="bot-field" 
+      data-netlify="true" 
+      name="contact" 
       >
-         <input type="hidden" name="bot-field" />
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
       <Fade left cascade>
         <div className="titlu"><h1>Contact form</h1></div>
         <Form.Row>
