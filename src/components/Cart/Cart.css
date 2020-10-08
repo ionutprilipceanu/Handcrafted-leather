@@ -144,9 +144,7 @@ input {
     font-size: 1.5rem;
   }
 
-  .form-container input {
-    width: 100%;
-  }
+  
 
   .form-container {
     margin:0 !important;
