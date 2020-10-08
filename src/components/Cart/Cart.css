@@ -99,7 +99,7 @@
   list-style-type: none;
 }
 
-.form-container li {
+.form-container li label{
   display: flex;
   flex-direction: column;
   padding: 0.25rem;
