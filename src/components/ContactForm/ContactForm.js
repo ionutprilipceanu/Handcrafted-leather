@@ -44,7 +44,12 @@ class ContactForm extends Component {
             placeholder="Enter first name"
             name="name" 
             required onChange={this.handInput}
+            method="post" 
+            netlify-honeypot="bot-field" 
+            data-netlify="true" 
             />
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
           </Form.Group>
 
           <Form.Group as={Col} >
@@ -55,7 +60,12 @@ class ContactForm extends Component {
             name="name" 
             placeholder="Enter last name" 
             required onChange={this.handInput}
+            method="post" 
+            netlify-honeypot="bot-field" 
+            data-netlify="true" 
             />
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
           </Form.Group>
         </Form.Row>
 
@@ -68,7 +78,12 @@ class ContactForm extends Component {
             type="text" 
             name="phone" 
             required onChange={this.handInput}
+            method="post" 
+            netlify-honeypot="bot-field" 
+            data-netlify="true" 
             />
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
           </Form.Group>
 
           <Form.Group as={Col}>
@@ -78,8 +93,13 @@ class ContactForm extends Component {
             type="text" 
             name="address" 
             placeholder="Delivery address" 
-            required onChange={this.handInput} 
+            required onChange={this.handInput}
+            method="post" 
+            netlify-honeypot="bot-field" 
+            data-netlify="true"  
             />
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
           </Form.Group>
         </Form.Row>
             
@@ -89,7 +109,13 @@ class ContactForm extends Component {
           id="text-area" 
           type="text" 
           name="comment" 
-          required onChange={this.handInput}  />
+          required onChange={this.handInput}  
+          method="post" 
+          netlify-honeypot="bot-field" 
+          data-netlify="true" 
+          />
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
         </Form.Group>   
 
         <Button variant="primary" type="submit" className="send_Btn">
