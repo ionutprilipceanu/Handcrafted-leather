@@ -86,7 +86,9 @@ class ContactForm extends Component {
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
           </Form.Group>
+        </Form.Row>
 
+        <Form.Row>
           <Form.Group as={Col}>
             <Form.Label htmlFor="email" >Email</Form.Label>
             <Form.Control 
