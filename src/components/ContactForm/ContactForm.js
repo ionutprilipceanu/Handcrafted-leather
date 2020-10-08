@@ -41,8 +41,8 @@ class ContactForm extends Component {
             <Form.Label htmlFor="name" >First Name</Form.Label>
             <Form.Control 
             type="text" 
-            placeholder="Enter first name"
             name="name" 
+            placeholder="Enter first name"
             required onChange={this.handInput}
             method="post" 
             netlify-honeypot="bot-field" 
@@ -53,9 +53,9 @@ class ContactForm extends Component {
           </Form.Group>
 
           <Form.Group as={Col} >
-            <Form.Label htmlFor="name" >Last Name</Form.Label>
+            <Form.Label htmlFor="lastname" >Last Name</Form.Label>
             <Form.Control 
-            id="lastname-input" 
+            // id="lastname-input" 
             type="text" 
             name="name" 
             placeholder="Enter last name" 
