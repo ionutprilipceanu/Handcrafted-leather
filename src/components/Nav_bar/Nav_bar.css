@@ -160,6 +160,9 @@
 }
 
 @media screen and (max-width: 565px) {
+  .nav_body {
+    width: 100%;
+  }
 
   .burger {
     padding: 15px;
@@ -172,6 +175,7 @@
   .nav-bar {
     display: none;
   }
+
   .backgroundSide{
     width: 60%;
     height: 820px;
