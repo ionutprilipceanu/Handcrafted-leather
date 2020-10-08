@@ -40,6 +40,7 @@ class ContactForm extends Component {
           <Form.Group as={Col} >
             <Form.Label htmlFor="name" >First Name</Form.Label>
             <Form.Control 
+            id="name-input" 
             type="text" 
             name="name" 
             placeholder="Enter first name"
@@ -55,7 +56,7 @@ class ContactForm extends Component {
           <Form.Group as={Col} >
             <Form.Label htmlFor="lastname" >Last Name</Form.Label>
             <Form.Control 
-            // id="lastname-input" 
+            id="lastname-input" 
             type="text" 
             name="name" 
             placeholder="Enter last name" 
