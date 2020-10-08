@@ -38,12 +38,12 @@ class ContactForm extends Component {
         <div className="titlu"><h1>Contact form</h1></div>
         <Form.Row>
           <Form.Group as={Col} >
-            <Form.Label htmlFor="name" >First Name</Form.Label>
+            <Form.Label htmlFor="name" >Name</Form.Label>
             <Form.Control 
             id="name-input" 
             type="text" 
             name="name" 
-            placeholder="Enter first name"
+            placeholder="Enter name"
             required onChange={this.handInput}
             method="post" 
             netlify-honeypot="bot-field" 
