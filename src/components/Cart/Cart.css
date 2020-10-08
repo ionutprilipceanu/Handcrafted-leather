@@ -145,7 +145,7 @@ input {
   }
 
   .form-container input {
-    width: 95%;
+    width: 100%;
   }
 
   .form-container {
@@ -157,5 +157,9 @@ input {
     padding: 1rem 0;
     margin: 0 0 35rem 0;
     border-bottom: 0.05rem #c0c0c0 solid;
+  }
+
+  .hole-container{
+    width: 90%;
   }
 }
