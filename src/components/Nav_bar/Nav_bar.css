@@ -160,10 +160,6 @@
 }
 
 @media screen and (max-width: 565px) {
-  .nav_body {
-    width: 100%;
-  }
-
   .burger {
     padding: 15px;
     transition-duration: 1s;
