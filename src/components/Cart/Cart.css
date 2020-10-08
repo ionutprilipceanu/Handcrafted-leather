@@ -1,8 +1,8 @@
 .hole-container{
   border: 0.05rem #c0c0c0 solid;
   padding: 5%;
-  margin: 0 5% 5% 5%;
-  width: 90%;
+  margin: 0;
+  width: 100%;
   border-radius: .25rem;
 }
 
@@ -94,12 +94,12 @@
 }
 
 .form-container {
-  width: 220px;
+  width: 100%;
   padding: 0;
   list-style-type: none;
 }
 
-.form-container li {
+.form-container li label{
   display: flex;
   flex-direction: column;
   padding: 0.25rem;
@@ -126,14 +126,6 @@
 
 input {
   outline: none;
-}
-
-@media screen and (max-width: 1100px) {
-  .form-container input {
-    width: 80%;
-  }
-
-
 }
 
 @media screen and (max-width: 550px) {
@@ -166,4 +158,5 @@ input {
     margin: 0 0 35rem 0;
     border-bottom: 0.05rem #c0c0c0 solid;
   }
+
 }
