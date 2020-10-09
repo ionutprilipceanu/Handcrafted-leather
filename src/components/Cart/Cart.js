@@ -92,22 +92,22 @@ class Cart extends Component {
                 <ul className="form-container">
                   <li>
                     <label htmlFor="name">Name:
-                    <input id="name-input" type="text" name="name" placeholder="Full name" required onChange={handleChange}></input>
+                    <input id="name-input" type="text" name="name" placeholder="Full name" required onChange={this.handInput}></input>
                     </label>
                   </li>
                   <li>
                     <label htmlFor="email">Email:
-                    <input id="address-input" type="text" name="address" placeholder="Email address" required onChange={handleChange}></input> 
+                    <input id="address-input" type="text" name="address" placeholder="Email address" required onChange={this.handInput}></input> 
                     </label>
                   </li>
                   <li>
                     <label htmlFor="comment">Address: 
-                    <input id="text-area" type="text" name="comment" placeholder="Delivery address" required onChange={handleChange}></input>
+                    <input id="text-area" type="text" name="comment" placeholder="Delivery address" required onChange={this.handInput}></input>
                     </label>
                   </li> 
                   <li>
                     <label htmlFor="phone">Phone: 
-                    <input id="phone-input" type="text" name="phone" placeholder="Phone number" required onChange={handleChange}></input>
+                    <input id="phone-input" type="text" name="phone" placeholder="Phone number" required onChange={this.handInput}></input>
                     </label>
                   </li>
                   <li>
