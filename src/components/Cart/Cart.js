@@ -83,7 +83,7 @@ class Cart extends Component {
               <div className="cartForm">
               <form onSubmit={this.createOrder}
                 method="post" 
-                netlify-honeypot="bot-field" 
+                data-netlify-honeypot="bot-field" 
                 data-netlify="true" 
                 name="contact" 
               >
