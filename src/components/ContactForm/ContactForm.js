@@ -31,6 +31,7 @@ class ContactForm extends Component {
       netlify-honeypot="bot-field" 
       data-netlify="true" 
       name="contact" 
+      action="/thank-you"
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />
