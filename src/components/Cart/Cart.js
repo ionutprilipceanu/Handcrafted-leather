@@ -91,8 +91,8 @@ class Cart extends Component {
                 <input type="hidden" name="form-name" value="contact" />
                 <ul className="form-container">
                   <li>
-                    <label htmlFor="name">Name:
-                    <input id="name-input" type="text" name="name" placeholder="Full name" required onChange={this.handInput}></input>
+                    <label htmlFor="lastname">Name:
+                    <input id="lastname-input" type="text" name="lastname" placeholder="Full name" required onChange={this.handInput}></input>
                     </label>
                   </li>
                   <li>
