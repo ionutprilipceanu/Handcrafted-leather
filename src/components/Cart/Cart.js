@@ -101,8 +101,8 @@ class Cart extends Component {
                     </label>
                   </li>
                   <li>
-                    <label htmlFor="delivery">Address: 
-                    <input id="delivery-input" type="text" name="delivery" placeholder="Delivery address" required onChange={this.handInput}></input>
+                    <label htmlFor="name">Address: 
+                    <input id="name-input" type="text" name="name" placeholder="Delivery address" required onChange={this.handInput}></input>
                     </label>
                   </li> 
                   <li>
