@@ -9,7 +9,7 @@ const SecondPage = () => (
 
     <h1>Info</h1>
     <p>Thank you for your submission!</p>
-    <Link to="/index.js">Go back to the home page</Link>
+    <Link to="/index">Go back to the home page</Link>
   </Layout>
 )
 
