@@ -50,7 +50,7 @@ class ContactForm extends Component {
             data-netlify="true" 
             />
             <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="name" />
           </Form.Group>
 
           {/* <Form.Group as={Col} >
@@ -84,7 +84,7 @@ class ContactForm extends Component {
             data-netlify="true" 
             />
             <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="phone" />
           </Form.Group>
         </Form.Row>
 
@@ -102,7 +102,7 @@ class ContactForm extends Component {
             data-netlify="true"  
             />
             <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="address" />
           </Form.Group>
         </Form.Row>
             
@@ -118,7 +118,7 @@ class ContactForm extends Component {
           data-netlify="true" 
           />
           <input type="hidden" name="bot-field" />
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="comment" />
         </Form.Group>   
 
         <Button variant="primary" type="submit" className="send_Btn">
