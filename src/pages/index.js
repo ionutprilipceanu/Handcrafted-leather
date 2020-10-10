@@ -61,7 +61,7 @@ import favicon from '..//images/favicon.png'
       return (
         <div className="box_content">
           <Helmet>
-            {/* <!-- Primary Meta Tags --> */}
+            {/* <!-- Primary Meta Tag --> */}
             <title>Marian Mihalache - Handcrafted leather | Iași  </title>
             <meta name="title" content="Marian Mihalache - Handcrafted leather | Iași  "/>
             <meta name="description" content="My name is Marian Mihalache and I love to do stuff from handcrafted leather. Shop handcrafted wallets, bags, watch straps, accessories, gifts and more."/>
