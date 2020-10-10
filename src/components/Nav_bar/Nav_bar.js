@@ -94,8 +94,8 @@ class Nav_bar extends Component {
               <li>
                 <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
               </li>
-              <li><a href="https://www.facebook.com/mih.marian86" className="logoItem"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
-              <li><a href="https://www.facebook.com/mih.marian86" className="logoItem"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
+              <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItem"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
+              <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItem"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
             </ul>
           </div>}
         </div>
@@ -122,7 +122,7 @@ class Nav_bar extends Component {
             <li>
               <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
             </li>
-            <li><a href="https://www.facebook.com/mih.marian86" className="logoItem"> <FontAwesomeIcon icon={faInstagram} className="logoInstagram"/> <FontAwesomeIcon icon={faFacebook} className="logoFacebook" /></a></li>
+            <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItem"> <FontAwesomeIcon icon={faInstagram} className="logoInstagram"/> <FontAwesomeIcon icon={faFacebook} className="logoFacebook" /></a></li>
           </ul>
           <ul className="navSideSecond">
             <li>Marian Mihalache</li>
