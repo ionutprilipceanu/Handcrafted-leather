@@ -82,7 +82,7 @@ import favicon from '..//images/favicon.png'
             <meta property="og:url" content="https://metatags.io/"/>
             <meta property="og:title" content="Marian Mihalache - Handcrafted leather | Iași  "/>
             <meta property="og:description" content="My name is Marian Mihalache and I love to do stuff from handcrafted leather. Shop handcrafted wallets, bags, watch straps, accessories, gifts and more."/>
-            <meta property="og:image" content="https://handcrafted-leather.netlify.app/images/chategory/classic_briefcase/classic_briefcase_003.jpg"/>
+            <meta property="og:image" content="/images/cover.jpg"/>
 	          <meta property="og:image:width" content="1200"/>
 	          <meta property="og:image:height" content="630"></meta>
 
