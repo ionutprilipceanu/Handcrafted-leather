@@ -71,8 +71,8 @@ class Nav_bar extends Component {
                 <li>
                   <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
                 </li>
-                <li><a href="https://www.facebook.com/mih.marian86" className="logoFacebook"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
-                <li><a href="https://www.facebook.com/mih.marian86" className="logoInstagram"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
+                <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoFacebook"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
+                <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoInstagram"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
               </ul>
             </div>
           :
