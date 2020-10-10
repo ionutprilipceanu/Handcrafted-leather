@@ -82,7 +82,10 @@ import favicon from '..//images/favicon.png'
             <meta property="og:url" content="https://metatags.io/"/>
             <meta property="og:title" content="Marian Mihalache - Handcrafted leather | Iași  "/>
             <meta property="og:description" content="My name is Marian Mihalache and I love to do stuff from handcrafted leather. Shop handcrafted wallets, bags, watch straps, accessories, gifts and more."/>
-            <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
+            {/* <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/> */}
+            <meta property="og:image" content="https://ionut-prilipceanu.com/imagini/portofoliu/nunta/Ionuț_Prilipceanu_IMAGE_Fotograf_Profesionist_Iași-32.jpg">
+	          <meta property="og:image:width" content="1200">
+	          <meta property="og:image:height" content="630"></meta>
 
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image"/>
