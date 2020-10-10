@@ -72,7 +72,7 @@ import favicon from '..//images/favicon.png'
             <meta property="og:type" content="website"/>
             <meta property="og:title" content="Marian Mihalache - Handcrafted leather | Iași"/>
             <meta property="og:site_name" content="Marian Mihalache - Handcrafted leather | Iași"></meta>
-            <meta property="og:image" content="/images/cover-image.jpg"/>
+            <meta property="og:image" content="/images/cover.jpg"/>
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <link rel="icon" href={favicon} />
@@ -83,7 +83,7 @@ import favicon from '..//images/favicon.png'
             <meta property="og:url" content="https://metatags.io/"/>
             <meta property="og:title" content="Marian Mihalache - Handcrafted leather | Iași  "/>
             <meta property="og:description" content="My name is Marian Mihalache and I love to do stuff from handcrafted leather. Shop handcrafted wallets, bags, watch straps, accessories, gifts and more."/>
-            <meta property="og:image" content="/images/cover-image.jpg"/>
+            <meta property="og:image" content="/images/cover.jpg"/>
 	          <meta property="og:image:width" content="1200"/>
 	          <meta property="og:image:height" content="630"></meta>
 
@@ -92,7 +92,7 @@ import favicon from '..//images/favicon.png'
             <meta property="twitter:url" content="https://metatags.io/"/>
             <meta property="twitter:title" content="Marian Mihalache - Handcrafted leather | Iași  "/>
             <meta property="twitter:description" content="My name is Marian Mihalache and I love to do stuff from handcrafted leather. Shop handcrafted wallets, bags, watch straps, accessories, gifts and more."/>
-            <meta property="twitter:image" content="/images/cover-image.jpg"/>
+            <meta property="twitter:image" content="/images/cover.jpg"/>
           </Helmet>
 
           <Nav_bar />
