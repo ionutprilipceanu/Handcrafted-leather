@@ -87,7 +87,7 @@ import favicon from '..//images/favicon.png'
 	          <meta property="og:image:width" content="1200"/>
 	          <meta property="og:image:height" content="630"></meta>
 
-            {/* <!-- Twitters --> */}
+            {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image"/>
             <meta property="twitter:url" content="https://metatags.io/"/>
             <meta property="twitter:title" content="Marian Mihalache - Handcrafted leather | Iași  "/>
