@@ -34,7 +34,7 @@ class Cart extends Component {
       name: this.state.name,
       email: this.state.email,
       address: this.state.address,
-      cartItems: this.props.cartItems,
+      cartItems: items,
     }
     console.log(this.props.cartItems);
     this.props.createOrder(order);
