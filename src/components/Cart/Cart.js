@@ -87,8 +87,10 @@ class Cart extends Component {
                 data-netlify="true" 
                 name="contact" 
               >
+                {console.log(cartItems)}
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="form-value" value={cartItems} />
                 <ul className="form-container">
                   <li>
                     <label htmlFor="name">Name:
