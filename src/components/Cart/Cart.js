@@ -24,12 +24,19 @@ class Cart extends Component {
 
   createOrder = (e)  =>{
     //e.preventDefault();
+    let items = ""
+    this.props.cartItems.map(element=>{
+      return items = items + element.title + "x" + element.count + "; "
+      
+    })
+    console.log(items);
     const order = {
       name: this.state.name,
       email: this.state.email,
       address: this.state.address,
       cartItems: this.props.cartItems,
     }
+    console.log(this.props.cartItems);
     this.props.createOrder(order);
   }
   
