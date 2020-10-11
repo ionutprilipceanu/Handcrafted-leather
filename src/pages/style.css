@@ -41,6 +41,17 @@ a {
   width: 370px;
 }
 
+.thank-you h1,p {
+  text-align: center;
+}
+
+.btn-primary{
+  width: 20%;
+  margin: 0 40%;
+}
+
+
+
 @media screen and (max-width: 650px) {
   .fullbarShoppingCart {
     width: 100%;

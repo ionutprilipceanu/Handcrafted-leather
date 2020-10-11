@@ -33,13 +33,13 @@ class ContactForm extends Component {
       name="contact-form-update" 
       action="/thank-you"
       >
-        {/* <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="contact-form-update" /> */}
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact-form-update" />
       <Fade left cascade>
         <div className="titlu"><h1>Contact form</h1></div>
         <Form.Row>
           <Form.Group as={Col} >
-            <Form.Label htmlFor="name" >First Name</Form.Label>
+            <Form.Label htmlFor="name" >Name</Form.Label>
             <Form.Control 
             id="name-input" 
             type="text" 
@@ -49,7 +49,7 @@ class ContactForm extends Component {
             />
           </Form.Group>
 
-           <Form.Group as={Col} >
+           {/* <Form.Group as={Col} >
             <Form.Label htmlFor="lastname" >Last Name</Form.Label>
             <Form.Control 
             id="lastname-input" 
@@ -58,7 +58,7 @@ class ContactForm extends Component {
             placeholder="Enter last name" 
             required onChange={this.handInput}
             />
-          </Form.Group> 
+          </Form.Group>  */}
         </Form.Row>
 
         <Form.Row>
