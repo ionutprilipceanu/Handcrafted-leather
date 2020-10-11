@@ -30,11 +30,11 @@ class ContactForm extends Component {
       method="post" 
       netlify-honeypot="bot-field" 
       data-netlify="true" 
-      name="contact-form" 
+      name="contact-form-update" 
       action="/thank-you"
       >
-        <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="contact-form" />
+        {/* <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact-form-update" /> */}
       <Fade left cascade>
         <div className="titlu"><h1>Contact form</h1></div>
         <Form.Row>
