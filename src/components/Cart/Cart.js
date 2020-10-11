@@ -34,7 +34,7 @@ class Cart extends Component {
       name: this.state.name,
       email: this.state.email,
       address: this.state.address,
-      cartItems: items,
+      items: items,
     }
     console.log(this.props.cartItems);
     this.props.createOrder(order);
@@ -103,6 +103,11 @@ class Cart extends Component {
                     <label htmlFor="name">Name:
                     <input id="name-input" type="text" name="name" placeholder="Full name" required onChange={this.handInput}></input>
                     </label>
+                  </li>
+                  <li>
+                    
+                    <input id="items-input" type="hidden" name="items" placeholder="Items" required onChange={this.handInput}></input>
+                    
                   </li>
                   <li>
                     <label htmlFor="email">Email:
