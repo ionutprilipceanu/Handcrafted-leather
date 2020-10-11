@@ -59,10 +59,10 @@ class Nav_bar extends Component {
                   <Link to="/" className="link" activeClassName="activeNav"> <FaHome /> Home</Link>
                 </li>
                 <li>
-                  <Link to="/store" className="link" activeClassName="activeNav"> <FaStoreAlt /> Store</Link>
+                  <Link to="/store/" className="link" activeClassName="activeNav"> <FaStoreAlt /> Store</Link>
                 </li>
                 <li>
-                  <Link to="/cart" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart:
+                  <Link to="/cart/" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart:
                     <CartNavBar
                       cartItems={this.state.cartItems}
                       
@@ -71,7 +71,7 @@ class Nav_bar extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
+                  <Link to="/contact/" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
                 </li>
                 <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoFacebook"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
                 <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoInstagram"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
@@ -84,17 +84,17 @@ class Nav_bar extends Component {
                 <Link to="/" className="link" activeClassName="activeNav"> <FaHome /> Home</Link>
               </li>
               <li>
-                <Link to="/store" className="link" activeClassName="activeNav"> <FaStoreAlt /> Store</Link>
+                <Link to="/store/" className="link" activeClassName="activeNav"> <FaStoreAlt /> Store</Link>
               </li> 
               <li>
-                <Link to="/cart" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart: 
+                <Link to="/cart/" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart: 
                   <CartNavBar 
                     cartItems={this.state.cartItems}  
                   />
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
+                <Link to="/contact/" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
               </li>
               <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItem"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
               <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItem"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
@@ -110,10 +110,10 @@ class Nav_bar extends Component {
               <Link to="/" className="link" activeClassName="activeNav"> <FaHome /> Home</Link>
             </li>
             <li>
-              <Link to="/store" className="link" activeClassName="activeNav"> <FaStoreAlt /> Store</Link>
+              <Link to="/store/" className="link" activeClassName="activeNav"> <FaStoreAlt /> Store</Link>
             </li> 
             <li>
-              <Link to="/cart" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart: 
+              <Link to="/cart/" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart: 
 
                 <CartNavBar 
                     cartItems={this.state.cartItems}  
@@ -122,7 +122,7 @@ class Nav_bar extends Component {
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
+              <Link to="/contact/" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
             </li>
             <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItem"> <FontAwesomeIcon icon={faInstagram} className="logoInstagram"/> <FontAwesomeIcon icon={faFacebook} className="logoFacebook" /></a></li>
           </ul>
@@ -139,17 +139,17 @@ class Nav_bar extends Component {
                 <Link to="/" className="link" activeClassName="activeNav"> <FaHome /> Home</Link>
               </li>
               <li>
-                <Link to="/store" className="link" activeClassName="activeNav"> <FaStoreAlt /> Store</Link>
+                <Link to="/store/" className="link" activeClassName="activeNav"> <FaStoreAlt /> Store</Link>
               </li> 
               <li>
-                <Link to="/cart" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart: 
+                <Link to="/cart/" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart: 
                   <CartNavBar 
                     cartItems={this.state.cartItems}  
                   />
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
+                <Link to="/contact/" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
               </li>
             </ul>
             <ul className="navSideSecond">
