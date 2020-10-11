@@ -97,7 +97,7 @@ class Cart extends Component {
                 {console.log(cartItems)}
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
-                <input type="hidden" name="form-value" value={cartItems} />
+                <input type="hidden" name="form-value" value="items" />
                 <ul className="form-container">
                   <li>
                     <label htmlFor="name">Name:
