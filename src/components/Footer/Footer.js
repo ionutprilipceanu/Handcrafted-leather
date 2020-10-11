@@ -15,8 +15,8 @@ function Footer() {
       </ul>
 
        <ul className="logoItemsDesktop">
-        <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItemDesktop"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
-        <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItemDesktop"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
+        <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItemDesktop"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
+        <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItemDesktop"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
       </ul> 
 
       <ul className="componentePhone">
@@ -26,9 +26,9 @@ function Footer() {
       </ul>
 
        <ul className="logoItemsPhone">
-        <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItemPhone"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
+        <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItemPhone"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
         <p>&copy;Iași România 2020</p>
-        <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItemPhone"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
+        <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItemPhone"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
       </ul> 
     </div>
   )

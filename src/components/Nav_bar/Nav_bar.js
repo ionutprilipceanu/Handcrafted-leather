@@ -64,15 +64,15 @@ class Nav_bar extends Component {
                   <Link to="/cart" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart:
                     <CartNavBar
                       cartItems={this.state.cartItems}
-                      
+                    
                     />
                   </Link>
                 </li>
                 <li>
                   <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
                 </li>
-                <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoFacebook"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
-                <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoInstagram"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
+                <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoFacebook"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
+                <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoInstagram"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
               </ul>
             </div>
           :
@@ -94,8 +94,8 @@ class Nav_bar extends Component {
               <li>
                 <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
               </li>
-              <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItem"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
-              <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItem"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
+              <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItem"> <FontAwesomeIcon icon={faFacebook} /> </a></li>
+              <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItem"> <FontAwesomeIcon icon={faInstagram} /> </a></li>
             </ul>
           </div>}
         </div>
@@ -122,7 +122,7 @@ class Nav_bar extends Component {
             <li>
               <Link to="/contact" className="link" activeClassName="activeNav"> <FaEnvelope /> Contact</Link>
             </li>
-            <li><a href="https://www.facebook.com/mih.marian86" target="_blank" className="logoItem"> <FontAwesomeIcon icon={faInstagram} className="logoInstagram"/> <FontAwesomeIcon icon={faFacebook} className="logoFacebook" /></a></li>
+            <li><a href="https://www.facebook.com/mih.marian86" target="_blank" rel="noreferrer" className="logoItem"> <FontAwesomeIcon icon={faInstagram} className="logoInstagram"/> <FontAwesomeIcon icon={faFacebook} className="logoFacebook" /></a></li>
           </ul>
           <ul className="navSideSecond">
             <li>Marian Mihalache</li>
