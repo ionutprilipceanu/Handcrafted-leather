@@ -4,7 +4,7 @@ import "./CartNavBar.css"
 
 
 class CartNavBar extends Component {
-  
+
   render() {
     const {cartItems} = this.props;
     return (

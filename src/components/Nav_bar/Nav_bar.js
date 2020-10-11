@@ -42,9 +42,10 @@ class Nav_bar extends Component {
 
   render () {
 
+    
     return (
       <div className="nav_body">
-      
+
         <div className="logo">
           <Link to="/" className="link" ><img src={logo} alt="Logo"/></Link>
         </div>
@@ -64,8 +65,9 @@ class Nav_bar extends Component {
                   <Link to="/cart" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart:
                     <CartNavBar
                       cartItems={this.state.cartItems}
-                    
-                    />
+                      
+                    >
+                    </CartNavBar>
                   </Link>
                 </li>
                 <li>
