@@ -30,11 +30,11 @@ class ContactForm extends Component {
       method="post" 
       netlify-honeypot="bot-field" 
       data-netlify="true" 
-      name="last-form-contact" 
+      name="last-form-contact-up" 
       action="/thank-you" //mesaj de informare dupa submit
       >
         <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="last-form-contact"  />
+        <input type="hidden" name="form-name" value="last-form-contact-up"  />
       <Fade left cascade>
         <div className="titlu"><h1>Contact form</h1></div>
         <Form.Row>
@@ -49,7 +49,7 @@ class ContactForm extends Component {
             />
           </Form.Group>
 
-           {/* <Form.Group as={Col} >
+            <Form.Group as={Col} >
             <Form.Label htmlFor="lastname" >Last Name</Form.Label>
             <Form.Control 
             id="lastname-input" 
@@ -58,7 +58,7 @@ class ContactForm extends Component {
             placeholder="Enter last name" 
             required onChange={this.handInput}
             />
-          </Form.Group>  */}
+          </Form.Group> 
         </Form.Row>
 
         <Form.Row>
