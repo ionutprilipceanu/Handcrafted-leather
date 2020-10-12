@@ -49,7 +49,7 @@ class ContactForm extends Component {
             />
           </Form.Group>
 
-            <Form.Group as={Col} >
+            {/* <Form.Group as={Col} >
             <Form.Label htmlFor="lastname" >Last Name</Form.Label>
             <Form.Control 
             id="lastname-input" 
@@ -58,7 +58,7 @@ class ContactForm extends Component {
             placeholder="Enter last name" 
             required onChange={this.handInput}
             />
-          </Form.Group> 
+          </Form.Group>  */}
         </Form.Row>
 
         <Form.Row>
