@@ -76,6 +76,9 @@ import favicon from '..//images/favicon.png'
             <meta property="og:image:width" content="1200"/>
             <meta property="og:image:height" content="630"/>
             <link rel="icon" href={favicon} />
+            <meta property="og:image" content="/images/cover-img.jpg"/>
+	          <meta property="og:image:width" content="1200"/>
+	          <meta property="og:image:height" content="630"></meta>
 
 
             {/* <!-- Open Graph / Facebook --> */}
