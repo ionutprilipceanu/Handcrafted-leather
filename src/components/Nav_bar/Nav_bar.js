@@ -40,9 +40,10 @@ class Nav_bar extends Component {
     })
   } 
 
+
+
   render () {
 
-    
     return (
       <div className="nav_body">
 
@@ -65,7 +66,6 @@ class Nav_bar extends Component {
                   <Link to="/cart/" className="link" activeClassName="activeNav"> <FaShoppingCart /> Cart:
                     <CartNavBar
                       cartItems={this.state.cartItems}
-                      
                     >
                     </CartNavBar>
                   </Link>
