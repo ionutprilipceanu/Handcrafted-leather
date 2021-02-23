@@ -13,12 +13,12 @@ import { Provider } from "react-redux"
 class ShoppingCart extends Component {
   constructor(props) {
     super(props)
-  
+
     this.state = {
-       products: data.products,
-       size:"",
-       sort:"",
-       cartItems: [],
+      products: data.products,
+      size: "",
+      sort: "",
+      cartItems: [],
     }
   }
   createOrder = (order) => {
@@ -30,7 +30,7 @@ class ShoppingCart extends Component {
       products: data.products,
       cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : []
     })
-  } 
+  }
 
   removeFromCart = (product) => {
     const cartItems = this.state.cartItems.slice();
@@ -42,7 +42,7 @@ class ShoppingCart extends Component {
       JSON.stringify(cartItems.filter((x) => x._id !== product._id))
     );
   };
-  
+
   addToCart = (product) => {
     const cartItems = this.state.cartItems.slice();
     let alreadyInCart = false;
@@ -65,14 +65,14 @@ class ShoppingCart extends Component {
     this.setState((state) => ({
       sort: sort,
       products: this.state.products
-      .slice()
-      .sort((a,b) =>
-        sort === "Lowest" ?
-        a.price > b.price ? 1: -1 :
-        sort === "Highest" ? 
-        a.price < b.price ? 1: -1 :
-        a._id > b._id ? 1: -1
-      )
+        .slice()
+        .sort((a, b) =>
+          sort === "Lowest" ?
+            a.price > b.price ? 1 : -1 :
+            sort === "Highest" ?
+              a.price < b.price ? 1 : -1 :
+              a._id > b._id ? 1 : -1
+        )
     }))
   };
 
@@ -92,44 +92,44 @@ class ShoppingCart extends Component {
 
   render() {
     typeof window !== 'undefined' && window.localStorage.getItem("cartItems");
-      return (
-        <Provider store={store}>
-      <div className="box_content">
-        <Nav_bar />
+    return (
+      <Provider store={store}>
+        <div className="box_content">
+          <Nav_bar />
 
           <div className="contentShoppingCart">
             <div className="mainShoppingCart">
-              
-              <Filter count={this.state.products.length} 
+
+              <Filter count={this.state.products.length}
                 size={this.state.size}
                 sort={this.state.sort}
                 filterProducts={this.filterProducts}
                 sortProducts={this.sortProducts}>
               </Filter>
 
-              <Products 
+              <Products
                 className="productsStore"
-                products={this.state.products} 
-                addToCart={this.addToCart}> 
+                products={this.state.products}
+                addToCart={this.addToCart}>
               </Products>
 
             </div>
 
             <div className="sidebarShoppingCart">
-              <Cart 
-                cartItems={this.state.cartItems}  
-                removeFromCart={this.removeFromCart} 
+              <Cart
+                cartItems={this.state.cartItems}
+                removeFromCart={this.removeFromCart}
                 createOrder={this.createOrder}>
               </Cart>
             </div>
 
           </div>
-        
-        <Footer />
-      </div>
+
+          <Footer />
+        </div>
       </Provider>
     )
-  }  
+  }
 }
 
 export default ShoppingCart

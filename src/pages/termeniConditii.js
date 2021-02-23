@@ -11,7 +11,7 @@ export default function termeniConditii() {
     <div className="box_content">
       <Nav_bar />
       <Termeni_Conditii_En />
-      
+
       <Footer />
     </div>
   )

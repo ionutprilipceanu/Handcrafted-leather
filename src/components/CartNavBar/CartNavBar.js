@@ -6,13 +6,13 @@ import "./CartNavBar.css"
 class CartNavBar extends Component {
 
   render() {
-    const {cartItems} = this.props;
+    const { cartItems } = this.props;
     return (
       <div className="hole-container-navBar">
 
-        {cartItems.length === 0? 
-        (<div className="cart cart-header-navBar">  0  </div>) : 
-        (<div className="cart cart-header-navBar">  {cartItems.length} </div>)
+        {cartItems.length === 0 ?
+          (<div className="cart cart-header-navBar">  0  </div>) :
+          (<div className="cart cart-header-navBar">  {cartItems.length} </div>)
         }
 
 

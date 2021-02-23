@@ -11,7 +11,7 @@ export default function politicaConfdentialitate() {
     <div className="box_content">
       <Nav_bar />
       <Politica_Confidentialitate_En />
-      
+
       <Footer />
     </div>
   )

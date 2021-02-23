@@ -25,7 +25,7 @@ export class Cursor extends Component {
               <h3>Classic briefcase</h3>
               <p>Great gift for men with good tastes.</p>
             </Carousel.Caption>
-            
+
           </Carousel.Item>
 
           <Carousel.Item>

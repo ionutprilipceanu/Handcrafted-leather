@@ -11,12 +11,12 @@ import { Provider } from "react-redux"
 class ShoppingCart extends Component {
   constructor(props) {
     super(props)
-  
+
     this.state = {
-       products: data.products,
-       size:"",
-       sort:"",
-       cartItems:[],
+      products: data.products,
+      size: "",
+      sort: "",
+      cartItems: [],
     }
   }
 
@@ -28,7 +28,7 @@ class ShoppingCart extends Component {
     this.setState({
       cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : []
     })
-  } 
+  }
 
   removeFromCart = (product) => {
     const cartItems = this.state.cartItems.slice();
@@ -41,28 +41,28 @@ class ShoppingCart extends Component {
     );
   };
 
- 
-  
+
+
   render() {
     return (
       <Provider store={store}>
         <div className="box_content">
           <Nav_bar />
 
-            <div className="contentShoppingCart">
-              <div className="fullbarShoppingCart">
-                <Cart 
-                cartItems={this.state.cartItems}  
-                removeFromCart={this.removeFromCart} 
-                createOrder={this.createOrder}/>
-              </div>
+          <div className="contentShoppingCart">
+            <div className="fullbarShoppingCart">
+              <Cart
+                cartItems={this.state.cartItems}
+                removeFromCart={this.removeFromCart}
+                createOrder={this.createOrder} />
             </div>
-          
+          </div>
+
           <Footer />
         </div>
       </Provider>
     )
-  }  
+  }
 }
 
 export default ShoppingCart

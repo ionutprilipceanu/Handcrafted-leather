@@ -8,15 +8,15 @@ if (typeof window !== 'undefined') {
   const initialState = {};
   const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
   store = createStore(combineReducers({
-  products: productsReducer,
+    products: productsReducer,
   }),
-  initialState, 
-  composeEnhancer(applyMiddleware(thunk))
-);
+    initialState,
+    composeEnhancer(applyMiddleware(thunk))
+  );
 
-} else { 
+} else {
   // if window does not exist
-  
+
 }
 
 export default store;

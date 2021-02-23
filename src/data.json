@@ -1,136 +1,172 @@
 {
-  "products":[
-  {
-    "_id": "object1",
-    "image": "/images/chategory/blacky_wallet/blacky_wallet_cover.jpg",
-    "image1":"/images/chategory/blacky_wallet/blacky_wallet_001.jpg",
-    "image2":"/images/chategory/blacky_wallet/blacky_wallet_002.jpg",
-    "image3":"/images/chategory/blacky_wallet/blacky_wallet_003.jpg",
-    "title": "Blacky wallet",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Wallets"],
-    "price": 150.00
-  },
-  {
-    "_id": "object2",
-    "image": "/images/chategory/card_holder/card_holder_cover.jpg",
-    "image1":"/images/chategory/card_holder/card_holder_002.jpg",
-    "image2":"/images/chategory/card_holder/card_holder_001.jpg",
-    "image3":"/images/chategory/card_holder/card_holder_003.jpg",
-    "title": "Card holder",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Wallets"],
-    "price": 350.00
-  },
-  {
-    "_id": "object3",
-    "image": "/images/chategory/chic_bag/chic_bag_cover.jpg",
-    "image1":"/images/chategory/chic_bag/chic_bag_003.jpg",
-    "image2":"/images/chategory/chic_bag/chic_bag_002.jpg",
-    "image3":"/images/chategory/chic_bag/chic_bag_001.jpg",
-    "title": "Chic bag",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Bags"],
-    "price": 150.00
-  },
-  {
-    "_id": "object4",
-    "image": "/images/chategory/classic_bag/classic_bag_cover.jpg",
-    "image1":"/images/chategory/classic_bag/classic_bag_001.jpg",
-    "image2":"/images/chategory/classic_bag/classic_bag_002.jpg",
-    "image3":"/images/chategory/classic_bag/classic_bag_003.jpg",
-    "title": "Classic bag",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Bags"],
-    "price": 50.00
-  },
-  {
-    "_id": "object5",
-    "image": "/images/chategory/classic_briefcase/classic_briefcase_cover.jpg",
-    "image1":"/images/chategory/classic_briefcase/classic_briefcase_003.jpg",
-    "image2":"/images/chategory/classic_briefcase/classic_briefcase_002.jpg",
-    "image3":"/images/chategory/classic_briefcase/classic_briefcase_001.jpg",
-    "title": "Classic briefcase",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Bags"],
-    "price": 150.00
-  },
-  {
-    "_id": "object6",
-    "image": "/images/chategory/classic_wallet/classic_wallet_cover.jpg",
-    "image1":"/images/chategory/classic_wallet/classic_wallet_003.jpg",
-    "image2":"/images/chategory/classic_wallet/classic_wallet_001.jpg",
-    "image3":"/images/chategory/classic_wallet/classic_wallet_002.jpg",
-    "title": "Classic wallet",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Wallets"],
-    "price": 10.00
-  },
-  {
-    "_id": "object7",
-    "image": "/images/chategory/covid_mask/covid_mask_cover.jpg",
-    "image1":"/images/chategory/covid_mask/covid_mask_004.jpg",
-    "image2":"/images/chategory/covid_mask/covid_mask_001.jpg",
-    "image3":"/images/chategory/covid_mask/covid_mask_005.jpg",
-    "title": "Covid mask",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Others"],
-    "price": 150.00
-  },
+  "products": [
     {
-    "_id": "object8",
-    "image": "/images/chategory/cutlery_holder/cutlery_holder_cover.jpg",
-    "image1":"/images/chategory/cutlery_holder/cutlery_holder_002.jpg",
-    "image2":"/images/chategory/cutlery_holder/cutlery_holder_001.jpg",
-    "image3":"/images/chategory/cutlery_holder/cutlery_holder_003.jpg",
-    "title": "Cuttlery holder",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Others"],
-    "price": 100.00
-  },
-  {
-    "_id": "object9",
-    "image": "/images/chategory/fancy_wallet/fancy_wallet_cover.jpg",
-    "image1":"/images/chategory/fancy_wallet/fancy_wallet_002.jpg",
-    "image2":"/images/chategory/fancy_wallet/fancy_wallet_001.jpg",
-    "image3":"/images/chategory/fancy_wallet/fancy_wallet_003.jpg",
-    "title": "Fancy wallet",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Wallets"],
-    "price": 120.00
-  },
-  {
-    "_id": "object10",
-    "image": "/images/chategory/gray_wallet/gray_wallet_cover.jpg",
-    "image1":"/images/chategory/gray_wallet/gray_wallet_002.jpg",
-    "image2":"/images/chategory/gray_wallet/gray_wallet_001.jpg",
-    "image3":"/images/chategory/gray_wallet/gray_wallet_003.jpg",
-    "title": "Gray wallet",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Wallets"],
-    "price": 150.00
-  },
-  {
-    "_id": "object11",
-    "image": "/images/chategory/handy_bag/handy_bag_cover.jpg",
-    "image1":"/images/chategory/handy_bag/handy_bag_003.jpg",
-    "image2":"/images/chategory/handy_bag/handy_bag_002.jpg",
-    "image3":"/images/chategory/handy_bag/handy_bag_001.jpg",
-    "title": "Handy bag",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All","Bags"],
-    "price": 80.00
-  },
-  {
-    "_id": "object12",
-    "image": "/images/chategory/long_wallet/long_wallet_cover.jpg",
-    "image1":"/images/chategory/long_wallet/long_wallet_001.jpg",
-    "image2":"/images/chategory/long_wallet/long_wallet_002.jpg",
-    "image3":"/images/chategory/long_wallet/long_wallet_003.jpg",
-    "title": "Long wallet",
-    "description": "This is for all the latest trends",
-    "availableSizes": ["All", "Wallets"],
-    "price": 30.00
-  }
+      "_id": "object1",
+      "image": "/images/chategory/blacky_wallet/blacky_wallet_cover.jpg",
+      "image1": "/images/chategory/blacky_wallet/blacky_wallet_001.jpg",
+      "image2": "/images/chategory/blacky_wallet/blacky_wallet_002.jpg",
+      "image3": "/images/chategory/blacky_wallet/blacky_wallet_003.jpg",
+      "title": "Blacky wallet",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Wallets"
+      ],
+      "price": 150.00
+    },
+    {
+      "_id": "object2",
+      "image": "/images/chategory/card_holder/card_holder_cover.jpg",
+      "image1": "/images/chategory/card_holder/card_holder_002.jpg",
+      "image2": "/images/chategory/card_holder/card_holder_001.jpg",
+      "image3": "/images/chategory/card_holder/card_holder_003.jpg",
+      "title": "Card holder",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Wallets"
+      ],
+      "price": 350.00
+    },
+    {
+      "_id": "object3",
+      "image": "/images/chategory/chic_bag/chic_bag_cover.jpg",
+      "image1": "/images/chategory/chic_bag/chic_bag_003.jpg",
+      "image2": "/images/chategory/chic_bag/chic_bag_002.jpg",
+      "image3": "/images/chategory/chic_bag/chic_bag_001.jpg",
+      "title": "Chic bag",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Bags"
+      ],
+      "price": 150.00
+    },
+    {
+      "_id": "object4",
+      "image": "/images/chategory/classic_bag/classic_bag_cover.jpg",
+      "image1": "/images/chategory/classic_bag/classic_bag_001.jpg",
+      "image2": "/images/chategory/classic_bag/classic_bag_002.jpg",
+      "image3": "/images/chategory/classic_bag/classic_bag_003.jpg",
+      "title": "Classic bag",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Bags"
+      ],
+      "price": 50.00
+    },
+    {
+      "_id": "object5",
+      "image": "/images/chategory/classic_briefcase/classic_briefcase_cover.jpg",
+      "image1": "/images/chategory/classic_briefcase/classic_briefcase_003.jpg",
+      "image2": "/images/chategory/classic_briefcase/classic_briefcase_002.jpg",
+      "image3": "/images/chategory/classic_briefcase/classic_briefcase_001.jpg",
+      "title": "Classic briefcase",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Bags"
+      ],
+      "price": 150.00
+    },
+    {
+      "_id": "object6",
+      "image": "/images/chategory/classic_wallet/classic_wallet_cover.jpg",
+      "image1": "/images/chategory/classic_wallet/classic_wallet_003.jpg",
+      "image2": "/images/chategory/classic_wallet/classic_wallet_001.jpg",
+      "image3": "/images/chategory/classic_wallet/classic_wallet_002.jpg",
+      "title": "Classic wallet",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Wallets"
+      ],
+      "price": 10.00
+    },
+    {
+      "_id": "object7",
+      "image": "/images/chategory/covid_mask/covid_mask_cover.jpg",
+      "image1": "/images/chategory/covid_mask/covid_mask_004.jpg",
+      "image2": "/images/chategory/covid_mask/covid_mask_001.jpg",
+      "image3": "/images/chategory/covid_mask/covid_mask_005.jpg",
+      "title": "Covid mask",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Others"
+      ],
+      "price": 150.00
+    },
+    {
+      "_id": "object8",
+      "image": "/images/chategory/cutlery_holder/cutlery_holder_cover.jpg",
+      "image1": "/images/chategory/cutlery_holder/cutlery_holder_002.jpg",
+      "image2": "/images/chategory/cutlery_holder/cutlery_holder_001.jpg",
+      "image3": "/images/chategory/cutlery_holder/cutlery_holder_003.jpg",
+      "title": "Cuttlery holder",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Others"
+      ],
+      "price": 100.00
+    },
+    {
+      "_id": "object9",
+      "image": "/images/chategory/fancy_wallet/fancy_wallet_cover.jpg",
+      "image1": "/images/chategory/fancy_wallet/fancy_wallet_002.jpg",
+      "image2": "/images/chategory/fancy_wallet/fancy_wallet_001.jpg",
+      "image3": "/images/chategory/fancy_wallet/fancy_wallet_003.jpg",
+      "title": "Fancy wallet",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Wallets"
+      ],
+      "price": 120.00
+    },
+    {
+      "_id": "object10",
+      "image": "/images/chategory/gray_wallet/gray_wallet_cover.jpg",
+      "image1": "/images/chategory/gray_wallet/gray_wallet_002.jpg",
+      "image2": "/images/chategory/gray_wallet/gray_wallet_001.jpg",
+      "image3": "/images/chategory/gray_wallet/gray_wallet_003.jpg",
+      "title": "Gray wallet",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Wallets"
+      ],
+      "price": 150.00
+    },
+    {
+      "_id": "object11",
+      "image": "/images/chategory/handy_bag/handy_bag_cover.jpg",
+      "image1": "/images/chategory/handy_bag/handy_bag_003.jpg",
+      "image2": "/images/chategory/handy_bag/handy_bag_002.jpg",
+      "image3": "/images/chategory/handy_bag/handy_bag_001.jpg",
+      "title": "Handy bag",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Bags"
+      ],
+      "price": 80.00
+    },
+    {
+      "_id": "object12",
+      "image": "/images/chategory/long_wallet/long_wallet_cover.jpg",
+      "image1": "/images/chategory/long_wallet/long_wallet_001.jpg",
+      "image2": "/images/chategory/long_wallet/long_wallet_002.jpg",
+      "image3": "/images/chategory/long_wallet/long_wallet_003.jpg",
+      "title": "Long wallet",
+      "description": "This is for all the latest trends",
+      "availableSizes": [
+        "All",
+        "Wallets"
+      ],
+      "price": 30.00
+    }
   ]
 }

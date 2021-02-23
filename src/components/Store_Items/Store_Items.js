@@ -14,7 +14,7 @@ import slide10 from "..//Store_Items/images/handy_bag_003.jpg"
 import slide11 from "..//Store_Items/images/card_holder_002.jpg"
 import slide12 from "..//Store_Items/images/long_wallet_001.jpg"
 import "..//Store_Items/Store_Items.css"
-import { Button} from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 // import Link from 'react-link'
 
 
@@ -24,13 +24,13 @@ export class Store_Items extends Component {
       <div className="containerBody">
         <h1>Store</h1>
         <div className="containerCards">
-          <div className="cards"> 
+          <div className="cards">
             <Card className="cardItemStore">
               <Card.Img variant="top" src={slide01} alt="poza" />
               <Card.Body>
                 <Card.Title>Blacky wallet</Card.Title>
-                  <Card.Text>
-                    50 lei
+                <Card.Text>
+                  50 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
@@ -40,8 +40,8 @@ export class Store_Items extends Component {
               <Card.Img variant="top" src={slide02} alt="poza" />
               <Card.Body>
                 <Card.Title>Card holder</Card.Title>
-                  <Card.Text>
-                    350 lei
+                <Card.Text>
+                  350 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
@@ -51,8 +51,8 @@ export class Store_Items extends Component {
               <Card.Img variant="top" src={slide03} alt="poza" />
               <Card.Body>
                 <Card.Title>Chic bag</Card.Title>
-                  <Card.Text>
-                    250 lei
+                <Card.Text>
+                  250 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
@@ -62,21 +62,21 @@ export class Store_Items extends Component {
               <Card.Img variant="top" src={slide04} alt="poza" />
               <Card.Body>
                 <Card.Title>Classic bag</Card.Title>
-                  <Card.Text>
-                    150 lei
+                <Card.Text>
+                  150 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
             </Card>
           </div>
 
-          <div className="cards"> 
+          <div className="cards">
             <Card className="cardItemStore">
               <Card.Img variant="top" src={slide05} alt="poza" />
               <Card.Body>
                 <Card.Title>Classic briefcase</Card.Title>
-                  <Card.Text>
-                    50 lei
+                <Card.Text>
+                  50 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
@@ -86,8 +86,8 @@ export class Store_Items extends Component {
               <Card.Img variant="top" src={slide06} alt="poza" />
               <Card.Body>
                 <Card.Title>Classic wallet</Card.Title>
-                  <Card.Text>
-                    350 lei
+                <Card.Text>
+                  350 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
@@ -97,8 +97,8 @@ export class Store_Items extends Component {
               <Card.Img variant="top" src={slide07} alt="poza" />
               <Card.Body>
                 <Card.Title>Covid mask</Card.Title>
-                  <Card.Text>
-                    250 lei
+                <Card.Text>
+                  250 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
@@ -108,21 +108,21 @@ export class Store_Items extends Component {
               <Card.Img variant="top" src={slide08} alt="poza" />
               <Card.Body>
                 <Card.Title>Cutlery holder</Card.Title>
-                  <Card.Text>
-                    150 lei
+                <Card.Text>
+                  150 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
             </Card>
           </div>
 
-          <div className="cards"> 
+          <div className="cards">
             <Card className="cardItemStore">
               <Card.Img variant="top" src={slide09} alt="poza" />
               <Card.Body>
                 <Card.Title>Fancy wallet</Card.Title>
-                  <Card.Text>
-                    50 lei
+                <Card.Text>
+                  50 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
@@ -132,8 +132,8 @@ export class Store_Items extends Component {
               <Card.Img variant="top" src={slide10} alt="poza" />
               <Card.Body>
                 <Card.Title>Handy bag</Card.Title>
-                  <Card.Text>
-                    350 lei
+                <Card.Text>
+                  350 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
@@ -143,8 +143,8 @@ export class Store_Items extends Component {
               <Card.Img variant="top" src={slide11} alt="poza" />
               <Card.Body>
                 <Card.Title>Card holder</Card.Title>
-                  <Card.Text>
-                    250 lei
+                <Card.Text>
+                  250 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>
@@ -154,8 +154,8 @@ export class Store_Items extends Component {
               <Card.Img variant="top" src={slide12} alt="poza" />
               <Card.Body>
                 <Card.Title>Long wallet</Card.Title>
-                  <Card.Text>
-                    150 lei
+                <Card.Text>
+                  150 lei
                   </Card.Text>
                 <Button variant="primary" className="cardBtn">More details</Button>
               </Card.Body>

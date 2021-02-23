@@ -10,8 +10,8 @@ export default function politicaConfdentialitate() {
   return (
     <div className="box_content">
       <Nav_bar />
-      <Politica_Cookie_En/>
-      
+      <Politica_Cookie_En />
+
       <Footer />
     </div>
   )
